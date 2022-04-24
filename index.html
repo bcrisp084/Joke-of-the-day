@@ -17,6 +17,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css" />
     <title>Joke of the day</title>
     
@@ -24,91 +27,32 @@
   <body>
     <h1 class="header">Do you want to hear a joke?</h1>
     <HR class="line1"></HR>
+   
+        <div class="container1">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="sidebar">
+              <ul class="list">
+                <li ><input class="search" type="text" placeholder="Search"></li>
+                <li><button>Random Joke</button></li>
+                <li><button>Joke of the day</button></li>
+                <li><button>Dad Joke</button></li>
+              </ul>
+            </div>
+            </div> 
+              <div class="col-md-6">
+                <div class="jokes">
+                <h3 class="random-setup"></h3>
+                <h5 class="random-punchline"></h5>
+              </div>
+            </div> 
+          </div>
+       </div>
 
-    <h1 class="visually-hidden">Sidebars examples</h1>
 
-    <div
-      class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark"
-      style="width: 280px"
-    >
-      <h2 class="menu">Menu</h2>
-      <hr />
-      <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
-          <a href="#" class="nav-link active" aria-current="page">
-            <svg class="bi me-2" width="16" height="16">
-              <use xlink:href="#home" />
-            </svg>
-            Search
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link text-white">
-            <svg class="bi me-2" width="16" height="16">
-              <use xlink:href="#speedometer2" />
-            </svg>
-            Random Joke
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link text-white">
-            <svg class="bi me-2" width="16" height="16">
-              <use xlink:href="#table" />
-            </svg>
-            Jokebytype
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link text-white">
-            <svg class="bi me-2" width="16" height="16">
-              <use xlink:href="#grid" />
-            </svg>
-            Products
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link text-white">
-            <svg class="bi me-2" width="16" height="16">
-              <use xlink:href="#people-circle" />
-            </svg>
-            Customers
-          </a>
-        </li>
-      </ul>
-      <hr />
-      <div class="dropdown">
-        <a
-          href="#"
-          class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
-          id="dropdownUser1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          <img
-            src=""
-            alt=""
-            width="32"
-            height="32"
-            class="rounded-circle me-2"
-          />
-          <strong>mdo</strong>
-        </a>
-        <ul
-          class="dropdown-menu dropdown-menu-dark text-small shadow"
-          aria-labelledby="dropdownUser1"
-        >
-          <li><a class="dropdown-item" href="#">New project...</a></li>
-          <li><a class="dropdown-item" href="#">Settings</a></li>
-          <li><a class="dropdown-item" href="#">Profile</a></li>
-          <li><hr class="dropdown-divider" /></li>
-          <li><a class="dropdown-item" href="#">Sign out</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-      <h3 class="random-setup"></h3>
-      <h5 class="random-punchline"></h5>
-    </div>
+         
+    
+    
     <script src="./assets/index.js"></script>
   </body>
 </html>

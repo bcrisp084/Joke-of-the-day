@@ -1,8 +1,55 @@
 .header {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Calligraffitti", cursive;
   text-align: center;
+  font-weight: bolder;
+  text-shadow: 3px 3px 8px rgb(90, 6, 75);
 }
 
-.menu {
-  text-align: center;
+.sidebar {
+  box-sizing: border-box;
+  background-color: rgb(90, 6, 75);
+  border: solid 2px black;
+  width: 300px;
+  align-items: center;
+  border-radius: 20px;
+  margin: auto;
+  padding: 5px;
 }
+
+.list {
+  list-style: none;
+}
+
+.search {
+  border-radius: 25px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px gray;
+}
+
+.jokes {
+  background-color: rgb(24, 92, 9);
+  color: rgb(187, 191, 195);
+  border: solid 2px black;
+  border-radius: 20px;
+  text-align: center;
+  width: fit-content;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+}
+
+button {
+  border-radius: 50px;
+  margin: 5px;
+  box-sizing: border-box;
+  box-shadow: 3px 3px gray;
+}
+/* 
+.line1 {
+  color: blue;
+  border: 5px;
+  height: 5px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(to left, blue red);
+} */

@@ -13,6 +13,7 @@ const settings = {
 };
 
 $.ajax(settings).done(function (response) {
+  console.log(response);
   console.log(response.body[0].setup);
   console.log(response.body[0].punchline);
   setup.textContent = response.body[0].setup;

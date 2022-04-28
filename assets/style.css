@@ -2,11 +2,14 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
-  background-image: linear-gradient(to bottom right, #525e75, #78938a);
+  background-image: linear-gradient(to bottom right, #74959a, #df7861);
   height: auto;
 }
 
 .header {
+  color: #000000;
+  border: 1px solid black;
+  border-width: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   font-weight: bolder;
@@ -15,3 +18,35 @@ body {
   margin-top: 10px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+}
+
+.menu {
+  list-style-type: none;
+  font-size: xx-large;
+  font-style: inherit;
+  font-weight: 700;
+  padding: 30px;
+  cursor: pointer;
+}
+
+#search {
+  width: fit-content;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+li {
+  padding: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
